@@ -1,9 +1,38 @@
 /* Add styling for your page here */
 
 .App {
-
+  display: flex;
+  flex-direction: row;
+  padding-left: 3%;
 }
 
 .BakeryItem {
-  
+  background-color: rgb(232, 230, 230);
+  width: 30vw;
+  min-width: 300px;
+  margin: 1%;
+  border-radius: 5%;
+}
+
+img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.BakeryDescription {
+  padding: 3%;
+}
+
+.Items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: none;
+}
+
+.RightCol {
+  max-width: 70%;
 }
