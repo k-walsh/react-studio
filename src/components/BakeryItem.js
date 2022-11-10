@@ -9,7 +9,7 @@ export default function BakeryItem(props) {
       <div className="BakeryDescription">
         <h2>{props.name}</h2>
         <p>{props.description}</p>
-        <p>{props.price}</p>
+        <p>${props.price}</p>
         <button onClick={() => props.updateCart(props.name, props.price)}>
           Add to Cart
         </button>

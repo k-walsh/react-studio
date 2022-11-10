@@ -54,7 +54,7 @@ function App() {
             </p>
           ))}
           <p>
-            <b>Total: {totalPrice()}</b>
+            <b>Total: ${totalPrice()}</b>
           </p>
         </div>
       );
